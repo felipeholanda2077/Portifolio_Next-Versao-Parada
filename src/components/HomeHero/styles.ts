@@ -90,7 +90,7 @@ export const CodeItem = styled.pre`
   color: #fff;
   width: 24rem;
   align-self: flex-start;
-  transition: 1s;
+  transition: 1s !important;
 
   @media (max-width: 1450px) {
     width: 18rem;
@@ -103,7 +103,7 @@ export const CodeItem = styled.pre`
   }
 
   &:hover {
-    filter: brightness(1.5);
+    filter: brightness(1.2);
   }
 
   &:last-child {
@@ -125,7 +125,7 @@ export const CodeItem = styled.pre`
 
   span.comment {
     color: ${({ theme }) => theme.text};
-    margim-bottom: 1rem;
+    margin-bottom: 1rem;
     display: block;
   }
 `;

@@ -2,9 +2,9 @@
 import { Container, TextContainer, InfosContainer, CodeItem } from './styles';
 import picture from '../../assets/Logo.png';
 
-export function HomeHero() {
+function HomeHero() {
   return (
-    <Container>
+    <Container data-aos="fade-up">
       <img src={picture} alt="Minha foto" />
       <div>
         <TextContainer>
@@ -12,7 +12,7 @@ export function HomeHero() {
           <h2>Me chamo Felipe Holanda</h2>
         </TextContainer>
         <InfosContainer>
-          <CodeItem>
+          <CodeItem data-aos="zoom-in">
             <span className="comment">//Minha apresentação</span>
             <span className="purple">Infos</span> {'\u007B'}
             <div>
@@ -23,14 +23,13 @@ export function HomeHero() {
             </div>
             {'\u007D'}
           </CodeItem>
-          <CodeItem>
-            <span className="purple">Atuação</span> {'\u007B'}
+          <CodeItem data-aos="zoom-in">
+            <span className="purple">Cargo</span> {'\u007B'}
             <div>
-              Área de Trabalho:{' '}
-              <span className="blue">Progamador Full-Stack,</span>
+              Função: <span className="blue">Dev Front-end,</span>
             </div>
             <div>
-              Cargo: <span className="blue">Desenvolvedor Junior</span>
+              Patamar: <span className="blue">Junior</span>
             </div>
             {'\u007D'}
           </CodeItem>
@@ -39,3 +38,5 @@ export function HomeHero() {
     </Container>
   );
 }
+
+export default HomeHero;
