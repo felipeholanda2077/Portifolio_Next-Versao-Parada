@@ -6,6 +6,6 @@
 
 <h1 align="center">🚧 Projeto Mesclado utilize o novo Repositorio 🚧</h1>
 
-Link do novo repositorio: https://github.com/felipeholanda2077/Portifolio_Next
+<p align="center">Link do novo repositorio: https://github.com/felipeholanda2077/Portifolio_Next</p>
 
 
